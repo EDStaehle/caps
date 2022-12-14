@@ -1,4 +1,4 @@
-# LAB - Class 11
+# LAB - Class 12
 
 ## Project:Server event lsitening
 
@@ -7,6 +7,7 @@
 ### Problem Domain
 
 using event pools create a series of tasks for a driver and a vendor
+now instead of using event pool refactor the code to use socket
 
 ### Links and Resources
 
@@ -47,4 +48,5 @@ see `.env.sample`
 
 #### UML
 
-![UML](./assets/class-08-uml.png)
+
+![UML](./class-12-uml.png)
