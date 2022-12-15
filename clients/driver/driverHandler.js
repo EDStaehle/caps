@@ -1,23 +1,18 @@
 'use strict';
 
-const {io} = require('socket.io-client');
-const socket = io('http://localhost:3001/caps');
-
-
-
-
-  function pickupInTransit(payload) {
+  const pickupInTransit = (socket) => (payload) => {
     setTimeout(() => {
       console.log(`Driver: Driver has picked up delivery:`,payload.orderId);
+      console.log(payload, '----------------------')
       socket.emit('IN_TRANSIT', payload)
     }, 2000);
   }
 
-  function deliveryHandler(payload) {
+  const deliveryHandler = (socket) => (payload) => {
     setTimeout(() => {
       console.log('driver has delivered the package');
       socket.emit('DELIVERED', payload);
-    }, 3000);
+    }, 5000);
   }
 
 
