@@ -49,4 +49,4 @@ see `.env.sample`
 #### UML
 
 
-![UML](./class-12-uml.png)
+![UML](./class-13-whiteboard.png)
