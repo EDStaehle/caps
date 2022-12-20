@@ -1,4 +1,4 @@
-# LAB - Class 12
+# LAB - Class 13
 
 ## Project:Server event lsitening
 
@@ -8,6 +8,8 @@
 
 using event pools create a series of tasks for a driver and a vendor
 now instead of using event pool refactor the code to use socket
+add in a second vendor
+have vendors join rooms so that the delivered message gets sent to the correct vendor
 
 ### Links and Resources
 
