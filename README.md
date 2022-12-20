@@ -6,8 +6,7 @@
 
 ### Problem Domain
 
-using event pools create a series of tasks for a driver and a vendor
-now instead of using event pool refactor the code to use socket
+replace the event pool with sockets and rafactor code. 
 
 ### Links and Resources
 
